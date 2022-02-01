@@ -2,23 +2,62 @@
     box-sizing:border-box;
     margin: auto;
     padding: 0px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
 }
 
-.pag1{
+#pag1{
+    position: relative;
     background-color: red;
     height: 100vh;
     width: 100vw;
 }
 
-.pag2{
+#pag2{
     background-color: green;
     height: 100vh;
     width: 100vw;
 }
 
-.pag3{
+#pag3{
     background-color: yellow;
     height: 100vh;
     width: 100vw;
 }
 
+nav{
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    z-index: 1;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 20px;
+}
+
+h1{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;    
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
